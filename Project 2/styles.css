@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+ol{
+    list-style: none;
+    display: flex;
+    flex: 1;
+    gap: 50px;
+    padding: 20px;
+}
+ol li{
+   color: green;
+}
+
+.headerbar{
+    display: flex;
+    margin: 10px;
+    padding: 5px;
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.navbar{
+    margin: 10px;
+    justify-content: center;
+    display: block;
+}
+.endHeader{
+    flex: 1;
+    display: flex;
+    gap: 40px;
+    justify-content: end;
+    align-content: center;
+
+}
+.searchbox{
+    display: flex;
+    border: 1px solid black;
+    justify-content: end;
+    align-content: center;
+    padding: 10px;
+    gap: 10px;
+    justify-items: center;
+    margin: 10px;
+    border-radius: 50px;
+}
+
+#starbuckslogo{
+    float: 1;
+    height: 35px;
+
+}
+
+
+   
+#seachtext{
+    flex: 1;
+    background-color: transparent;
+    border: 0px solid;
+    height: 20px;
+    width: 200px;
+    color: #CCC;
+}
+.greenbar{
+    display: flex;
+    background-color: darkgreen;;
+    height:60px;
+    align-content: center;
+
+}
+.button{
+    justify-self: end;
+    background-color: transparent;
+    border: 0px solid;
+    height: 20px;
+    width: 50px;
+    border-radius: 50px;
+    color: #CCC;
+    border: 1px solid black;
+
+}
+h3{
+    flex: 1;
+    color: white;
+    
+}
